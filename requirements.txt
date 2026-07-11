@@ -10,7 +10,7 @@ dnspython
 google
 gpytranslate
 httpx
-kurigram==2.2.23
+kurigram==2.2.24
 lyricsgenius
 pillow
 lottie
