@@ -37,9 +37,9 @@ class Gojo(Client):
             sleep_threshold=60,
         )
 
-    async def start(self):
-        """Start the bot."""
-        await super().start()
+    async def start(self, use_qr=False, except_ids=None):
+    """Start the bot."""
+        await super().start(use_qr=use_qr, except_ids=except_ids)
         await self.set_bot_commands(
             [
                 BotCommand(
