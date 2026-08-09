@@ -18,7 +18,7 @@ jobs:
     - name: Install required
       uses: sudo apt-get install libxml2-dev libxslt-dev python-dev lib32z1-dev
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       
     - name: Set up Python environment
       uses: actions/setup-python@v5
